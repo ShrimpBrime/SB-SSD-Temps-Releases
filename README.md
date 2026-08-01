@@ -1,7 +1,4 @@
 SB SSD Temps
-Publisher: Jon Bauer
-
-Platform: 64-bit Windows 10/11
 
 SHA-256: e12e252e536e6f88ca3ba35644c8e42718972873a9b5466c20a3b119aa371cc4
 
