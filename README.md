@@ -11,6 +11,7 @@ SB SSD Temps provides a clean, purpose-built interface for viewing the temperatu
 
 The application is distributed as a portable, digitally signed Windows executable. It does not require a conventional installer and is designed to remain read-only during normal monitoring.
 
+<img width="1920" height="1080" alt="Screenshot 2026-07-31 220953" src="https://github.com/user-attachments/assets/eb54625b-f032-4854-b0fb-e335b2f7ac00" />
 
 
 <img width="1920" height="1080" alt="Screenshot 2026-07-31 220127" src="https://github.com/user-attachments/assets/d234cf5f-5a1a-476f-b576-7e093f510a47" />
