@@ -1,7 +1,10 @@
 SB SSD Temps
 Publisher: Jon Bauer
+
 Platform: 64-bit Windows 10/11
+
 SHA-256: e12e252e536e6f88ca3ba35644c8e42718972873a9b5466c20a3b119aa371cc4
+
 A focused Windows utility for SSD temperature, health, and live drive-activity monitoring.
 
 SB SSD Temps provides a clean, purpose-built interface for viewing the temperature information exposed by supported solid-state drives and hard drives. It was created for enthusiasts, technicians, system builders, reviewers, and everyday users who want useful storage information without navigating a large general-purpose hardware-monitoring suite.
