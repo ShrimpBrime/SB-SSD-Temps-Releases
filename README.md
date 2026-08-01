@@ -1,6 +1,8 @@
 SB SSD Temps
 
-SHA-256: e12e252e536e6f88ca3ba35644c8e42718972873a9b5466c20a3b119aa371cc4
+EXE SHA-256: e12e252e536e6f88ca3ba35644c8e42718972873a9b5466c20a3b119aa371cc4
+
+ZIP SHA-256: 37d89219260b1f7b5c9be834c3b160e9b6b5c132114fa3542eb9c48f5f582a75
 
 A focused Windows utility for SSD temperature, health, and live drive-activity monitoring.
 
