@@ -23,7 +23,7 @@ Platform: 64-bit Windows 10 and Windows 11
 
 Distribution: Portable single-file executable
 
-Publisher: Jon Bauer
+Publisher: Copyright © 2026 Jon Bauer / ShrimpBrime. All rights reserved.
 
 Price: Freeware
 
@@ -322,6 +322,89 @@ Future revisions may improve device compatibility, reporting, presentation, pack
 Ownership and Usage Terms
 
 Copyright © 2026 Jon Bauer / ShrimpBrime. All rights reserved.
+
+SB SSD Temps — Changelog
+
+Current version: v1.29
+Supports 64-bit Windows 10 and Windows 11.
+
+v1.24–v1.29 — Interface and drive-health polish
+
+• Added drive-reported remaining health, such as “100% Remaining.”
+• Uses Life or NVMe Percentage Used data when available.
+• Displays “Not Reported” when the drive provides no compatible health reading.
+• Removed clutter from the tachometer gauge faces.
+• Simplified and repositioned the tachometer status line.
+• Final placement centers the status beside Reset Graphs and Close.
+
+v1.19–v1.23 — Live Drive Activity
+
+• Added separate live READ and WRITE tachometers.
+• Added precise B/s, KB/s, MB/s and GB/s readouts.
+• Added gold, silver and bronze temperature-history graphs.
+• Added smooth needle movement and stabilized rendering.
+• Added automatic 10, 20, 40, 80 and 160 GB/s gauge ranges.
+• Added graph-only reset without interrupting live monitoring.
+• Fixed a Reset Graphs error affecting the branded executable.
+
+v1.12–v1.18 — Compatibility and layout improvements
+
+• Added graceful N/A operation for drives without readable temperature sensors.
+• Kept screenshots, reports, visual settings and other controls functional in N/A mode.
+• Improved multi-drive selection and sensor labeling.
+• Added SATA SSD and hard-drive support when sensors are exposed.
+• Reworked warning placement so messages no longer cover controls.
+• Standardized button sizes, spacing, sliders and footer positioning.
+
+v1.6–v1.11 — Visuals, tray operation and launcher
+
+• Added minimize-to-tray operation.
+• Added an always-on-top Mini Monitor.
+• Added live temperatures to the tray menu.
+• Added Support and About tray commands.
+• Added the branded Chiller Cube icon and Windows launcher.
+• Added dark, black, charcoal and Light visual modes.
+• Added static colors, rainbow, pulse and chase RGB effects.
+• Added saved visual preferences.
+• Improved About, Support and attribution text.
+
+v0.15–v1.5 — Multi-drive release development
+
+• Standardized the application name as SB SSD Temps.
+• Added drive selection and multi-device reports.
+• Added Samsung 990 PRO NAND, controller and composite identification.
+• Added single-temperature layouts for other storage devices.
+• Added Celsius/Fahrenheit selection.
+• Added adjustable polling from 0.5 to 5.0 seconds.
+• Added app and desktop screenshots.
+• Added Sensor Details and Reset Statistics.
+• Added font, accent-color and background controls.
+
+v0.1–v0.14 — Initial prototypes
+
+• Created the original read-only storage-temperature monitor.
+• Added current, minimum, maximum and session-average readings.
+• Added drive-reported warning and critical thresholds.
+• Corrected early degree-symbol and text-encoding problems.
+• Expanded detection beyond the original Samsung 990 PRO.
+
+Current highlights
+
+• Read-only monitoring
+• NVMe, SATA SSD and HDD support when sensors are exposed
+• PCIe and Optane support when SMART/NVMe data is accessible
+• Multi-drive selector
+• Remaining drive-health display
+• Live READ/WRITE tachometers
+• Recent temperature graphs
+• Adjustable polling and temperature units
+• Screenshots and detailed sensor reports
+• Saved themes, colors, RGB effects and fonts
+• Minimize-to-tray and Mini Monitor
+• Graceful N/A mode
+• Windows 10 and Windows 11 support
+
+SB SSD Temps v1.29 is considered feature-complete and ready for controlled external testing. The current build is unsigned, so Windows or antivirus reputation warnings may appear.
 
 SB SSD Temps is proprietary freeware. Permission is granted to download and use an unmodified official copy for personal use. Unless separately authorized in writing, permission is not granted to repackage, modify, resell, impersonate the publisher of, or distribute altered versions of the application. Applicable statutory rights remain unaffected.
 
