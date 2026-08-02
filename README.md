@@ -1,3 +1,24 @@
+SB SSD Temps v1.31
+
+Version 1.31 introduces an officially signed release of SB SSD Temps.
+
+What’s included
+Digitally signed by Jon Bauer / ShrimpBrime
+Signed through Microsoft Azure Artifact Signing
+Microsoft timestamped for long-term signature validity
+Verified successfully with Windows SignTool
+Tested after signing to confirm normal operation
+Portable—no installation required
+
+Download SB_SSD_Temps_v1.31_SIGNED.zip, extract the executable, and run it.
+[SB_SSD_Temps_v1.31.zip](https://github.com/user-attachments/files/30638672/SB_SSD_Temps_v1.31.zip)
+
+SHA-256
+B30085174991B95626FFFE5DE87310CA5392FB17426B7AF1D3765AE86C76F4FE
+
+This hash is for the signed .exe file and can be used to verify that the download has not been modified.
+
+
 SB SSD Temps
 
 EXE SHA-256: e12e252e536e6f88ca3ba35644c8e42718972873a9b5466c20a3b119aa371cc4
