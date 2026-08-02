@@ -10,7 +10,7 @@ Verified successfully with Windows SignTool
 Tested after signing to confirm normal operation
 Portable—no installation required
 
-Download SB_SSD_Temps_v1.31_SIGNED.zip, extract the executable, and run it.
+Download SB_SSD_Temps_v1.31, extract the executable, and run it.
 [SB_SSD_Temps_v1.31.zip](https://github.com/user-attachments/files/30638672/SB_SSD_Temps_v1.31.zip)
 
 SHA-256
