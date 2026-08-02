@@ -35,6 +35,9 @@ The application is distributed as a portable, digitally signed Windows executabl
 
 https://github.com/user-attachments/assets/deab227a-a927-4eea-8433-c94a375e2eb3
 
+<img width="1920" height="1080" alt="SB_SSD_Temps_Desktop_20260802_112745" src="https://github.com/user-attachments/assets/5bfe8e1e-4964-407c-9399-9adaa6292656" />
+
+<img width="1920" height="1080" alt="SB_SSD_Temps_Desktop_20260802_112750" src="https://github.com/user-attachments/assets/9eeac2fa-0fb5-4cd5-8aef-dd693a44d110" />
 
 
 <img width="1920" height="1080" alt="Screenshot 2026-07-31 220953" src="https://github.com/user-attachments/assets/eb54625b-f032-4854-b0fb-e335b2f7ac00" />
