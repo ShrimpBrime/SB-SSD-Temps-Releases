@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/deab227a-a927-4eea-8433-c94a375e2eb3
 
 <img width="1920" height="1080" alt="Screenshot 2026-07-31 220127" src="https://github.com/user-attachments/assets/d234cf5f-5a1a-476f-b576-7e093f510a47" />
 
-Current Release
+Log - Release v1.29
 
 Version: 1.29
 
