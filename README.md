@@ -10,6 +10,8 @@ ZIP
 
 SB SSD Temps v1.32 greatly expands drive-temperature monitoring while preserving the application’s read-only design. This release is available as a signed, single-file portable Windows executable.
 
+NOTE: May need to run as administrator because the app access data through third party apps for accuracy. Windows reporting alone is not adequate nor accurate.
+
 ### What’s New in v1.32
 
 * Displays every readable temperature sensor reported by the selected drive.
