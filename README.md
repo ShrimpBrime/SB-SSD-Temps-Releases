@@ -1,3 +1,85 @@
+SB SSD Temps v1.32 RC
+
+SHA-256 Checksums
+
+EXE
+C769BAE458B8C6BB186237F77EA631E6E04DC36A91C47D9F7F81FCE38629B0A9
+
+ZIP
+3E1F11BE0AAB19F630E45CB99B1CF752AF40330A9A525604A0E51733140CC989
+
+SB SSD Temps v1.32 greatly expands drive-temperature monitoring while preserving the application’s read-only design. This release is available as a signed, single-file portable Windows executable.
+
+### What’s New in v1.32
+
+* Displays every readable temperature sensor reported by the selected drive.
+* Keeps the primary NAND, Controller, and Composite cards visible, showing `N/A` when a channel is unavailable.
+* Automatically adds separate cards for additional temperature sensors.
+* Expands the main sensor layout horizontally while maintaining responsive card rows.
+* Adds all available temperature channels to Mini Temps.
+* Adds per-sensor thermal status indicators:
+
+  * **NORMAL**
+  * **WARNING**
+  * **DANGER**
+  * Flashing **CRITICAL**
+* Adds an adjustable 20–100°C early-warning slider.
+* Auto warning begins 10°C before the drive-reported warning threshold.
+* Custom warning settings reset to Auto when another drive is selected.
+* Adds Composite Thermal History with:
+
+  * Current Drive
+  * Selected Drives
+  * All Drives
+* Reads NVMe Warning-Temperature Time and Critical-Temperature Time directly from the drive’s standard SMART/Health log through Windows when supported.
+* Shows valid `0 min` readings separately from unsupported `N/A` fields.
+* Adds a concise `T-TIME INFO` explanation covering the counters, data source, firmware thresholds, and prolonged high-temperature risk.
+* Adds rounded borderless windows with drag-to-reposition support.
+* Improves resizing, redraw smoothness, icon rendering, and child-window shutdown behavior.
+* Locks Mini Temps and Mini Tachs borders to protect their layouts.
+* Consolidates accent, RGB, and background controls under **APP COLORS**.
+* Updates the built-in Support pages for the new sensors, warnings, Thermal History, and compatibility behavior.
+
+### Portable Signed Release
+
+`SB_SSD_Temps_v1.32_PORTABLE.exe` is a signed, single-file portable build. It contains the application, runtime libraries, assets, and documentation inside one executable.
+
+No installation is required:
+
+1. Download the portable EXE or ZIP.
+2. Optionally verify its SHA-256 checksum.
+3. Run `SB_SSD_Temps_v1.32_PORTABLE.exe`.
+4. Approve the Windows administrator prompt required for direct hardware-sensor access.
+
+The portable application extracts its private runtime payload under the current user’s Local AppData directory. It does not require the original ZIP, an adjacent runtime folder, or a separate PowerShell script.
+
+### Requirements
+
+* 64-bit Windows 10 or Windows 11
+* Administrator permission
+* A storage device exposing readable temperature information
+
+NVMe SSDs, SATA SSDs, and mechanical hard drives may be listed. Available sensors, thresholds, health information, and temperature-time counters depend on what the drive firmware, controller, adapter, and Windows storage path expose.
+
+### Read-Only Operation
+
+SB SSD Temps monitors information only. It does not benchmark, write to, optimize, configure, or control the selected drive. It does not control fans, RGB hardware, TEC modules, or cooling equipment.
+
+
+### Public Testing
+
+Additional drive models and unusual sensor layouts are especially useful for testing. If a drive is missing, mislabeled, displays unexpected sensors, or reports `N/A`, please include:
+
+* Drive model
+* Windows version
+* Application screenshot
+* `SB_SSD_Temps_Storage_Report.txt` created with **Sensor Details**
+
+Reports help improve compatibility without requiring the application to collect or transmit telemetry.
+
+
+
+
 SB SSD Temps v1.31
 
 Version 1.31 introduces an officially signed release of SB SSD Temps.
