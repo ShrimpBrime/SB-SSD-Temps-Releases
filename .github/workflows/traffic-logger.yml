@@ -9,7 +9,8 @@ jobs:
   logger:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Allows the bot to commit data to your repo
+      contents: write   # Allows committing data to the repo
+      repository-projects: read # Helps verify repository access scope
 
     steps:
     - name: Checkout Repository
@@ -30,7 +31,7 @@ jobs:
     - name: Commit and Push Data
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.email "github-actions[bot]@://github.com"
         
         # Stage all changes in our traffic folder
         git add traffic-data/*
