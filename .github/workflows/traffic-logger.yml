@@ -30,13 +30,13 @@ jobs:
     - name: Commit and Push Data
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@://github.com"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Stage the traffic data folder
         git add traffic-data/*
         
-        # Check if there are actually changes to commit first
-        if [ -n "$(git status --porcelain)" ]; then
-          git commit -m "chore: update traffic logs [skip ci]"
-          git push
-        else
-          echo "No new traffic data to commit today."
-        fi
+        # Safely commit only if Git sees actual uncommitted modifications or new files
+        git diff-index --quiet HEAD -- || git commit -m "chore: update traffic logs [skip ci]"
+        
+        # Push changes to the main repository
+        git push
