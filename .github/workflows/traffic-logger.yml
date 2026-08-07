@@ -32,5 +32,6 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@://github.com"
         git add traffic-data/*
-        git commit -m "chore: update traffic logs [skip ci]" || exit 0
+        git commit -m "chore: update traffic logs [skip ci]" && git push || echo "No changes to commit"
+
         git push
