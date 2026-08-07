@@ -8,20 +8,19 @@ on:
 jobs:
   logger:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # Allows committing data to the repo
-      repository-projects: read # Helps verify repository access scope
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.TRAFFIC_PAT }} # Uses your new personal key to authenticate
 
     - name: Create Data Directory
       run: mkdir -p traffic-data
 
     - name: Fetch Traffic Data
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.TRAFFIC_PAT }} # Gives the API request admin-level traffic access
         REPO: ${{ github.repository }}
       run: |
         # Fetch views and clones using the GitHub CLI
@@ -31,7 +30,7 @@ jobs:
     - name: Commit and Push Data
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@://github.com"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
         # Stage all changes in our traffic folder
         git add traffic-data/*
