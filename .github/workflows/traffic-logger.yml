@@ -32,6 +32,11 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@://github.com"
         git add traffic-data/*
-        git commit -m "chore: update traffic logs [skip ci]" && git push || echo "No changes to commit"
-
-        git push
+        
+        # Check if there are actually changes to commit first
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m "chore: update traffic logs [skip ci]"
+          git push
+        else
+          echo "No new traffic data to commit today."
+        fi
