@@ -1,8 +1,25 @@
-SB SSD Temps v1.32 RC
+SB SSD Temps v1.33 RC
+
+<img width="1920" height="1080" alt="Screenshot 2026-08-06 211555" src="https://github.com/user-attachments/assets/abb3a39d-ba9b-4b56-ae2b-6e29aa54d01c" />
 
 <img width="1920" height="1080" alt="SB_SSD_Temps_Desktop_20260806_190957" src="https://github.com/user-attachments/assets/8046ac8f-8f1f-491c-bb9e-39030b20ef24" />
 
+SB_SSD_Temps_v1.33.exe
 
+SHA-256
+1F2A363A7164B0679D17F26B598729BCF31A7891B3E2486DF5D100EC5E7DA148
+
+• Added a new Sensor Thresholds window with expanded NVMe SMART threshold information and explanations.
+• Added session-based memory for TACH window size and position on a per-drive basis.
+• TACH windows now reopen in their previous location while remaining on a visible monitor.
+• Redesigned the Thermal Info, Threshold Info, Support, About, and Info windows.
+• Fixed overlapping controls and partially hidden Close buttons.
+• Restored the main application's Always on Top behavior while maintaining screenshot functionality.
+• Improved window resizing and overall interface consistency.
+• Added a portable single-file executable build.
+• Digitally signed using Microsoft Azure Trusted Signing (SHA-256 with trusted timestamp).
+
+v1.32
 SHA-256 Checksums
 
 EXE
