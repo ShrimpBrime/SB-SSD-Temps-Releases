@@ -6,8 +6,14 @@ SB SSD Temps v1.33 RC
 
 SB_SSD_Temps_v1.33.exe
 
-SHA-256
+SHA-256 EXE
+
 1F2A363A7164B0679D17F26B598729BCF31A7891B3E2486DF5D100EC5E7DA148
+
+SHA-256 ZIP
+
+6308B939A095D48B4BBA46E810806E069C707092459F74B275B932CA3C52E577
+
 NOTE: May need to run as administrator because the app access data through third party apps for accuracy.
 
 • Added a new Sensor Thresholds window with expanded NVMe SMART threshold information and explanations.
