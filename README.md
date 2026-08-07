@@ -8,6 +8,7 @@ SB_SSD_Temps_v1.33.exe
 
 SHA-256
 1F2A363A7164B0679D17F26B598729BCF31A7891B3E2486DF5D100EC5E7DA148
+NOTE: May need to run as administrator because the app access data through third party apps for accuracy.
 
 • Added a new Sensor Thresholds window with expanded NVMe SMART threshold information and explanations.
 • Added session-based memory for TACH window size and position on a per-drive basis.
@@ -19,6 +20,7 @@ SHA-256
 • Added a portable single-file executable build.
 • Digitally signed using Microsoft Azure Trusted Signing (SHA-256 with trusted timestamp).
 
+OLDER VERSIONS NOTES/UPDATES ---->
 v1.32
 SHA-256 Checksums
 
@@ -32,7 +34,7 @@ SB SSD Temps v1.32 greatly expands drive-temperature monitoring while preserving
 
 NOTE: May need to run as administrator because the app access data through third party apps for accuracy. Windows reporting alone is not adequate nor accurate.
 
-### What’s New in v1.32
+OLDER VERSIONS - v1.32 and below --->
 
 * Displays every readable temperature sensor reported by the selected drive.
 * Keeps the primary NAND, Controller, and Composite cards visible, showing `N/A` when a channel is unavailable.
