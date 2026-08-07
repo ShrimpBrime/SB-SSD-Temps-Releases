@@ -1,5 +1,8 @@
 SB SSD Temps v1.32 RC
 
+<img width="1920" height="1080" alt="SB_SSD_Temps_Desktop_20260806_190957" src="https://github.com/user-attachments/assets/8046ac8f-8f1f-491c-bb9e-39030b20ef24" />
+
+
 SHA-256 Checksums
 
 EXE
