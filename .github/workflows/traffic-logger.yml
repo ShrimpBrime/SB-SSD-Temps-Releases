@@ -1,0 +1,36 @@
+name: Fetch Repository Traffic
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  workflow_dispatch: # Allows you to run it manually
+
+jobs:
+  logger:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows the bot to commit data to your repo
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Create Data Directory
+      run: mkdir -p traffic-data
+
+    - name: Fetch Traffic Data
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPO: ${{ github.repository }}
+      run: |
+        # Fetch views and clones using the GitHub CLI
+        gh api repos/$REPO/traffic/views > traffic-data/views-$(date +%F).json
+        gh api repos/$REPO/traffic/clones > traffic-data/clones-$(date +%F).json
+
+    - name: Commit and Push Data
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@://github.com"
+        git add traffic-data/*
+        git commit -m "chore: update traffic logs [skip ci]" || exit 0
+        git push
