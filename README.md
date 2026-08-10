@@ -1,4 +1,6 @@
-SB SSD Temps v1.33 RC
+SB SSD Temps - The Best Free NVMe SSD Temperature Monitor for Windows 11
+
+SB SSD Temps v1.33 RC 
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-06 211555" src="https://github.com/user-attachments/assets/abb3a39d-ba9b-4b56-ae2b-6e29aa54d01c" />
 
